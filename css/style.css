@@ -1,0 +1,359 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  /* font-size: 10px; */
+
+  /* 10px / 16px = 0.625 = 62.5% */
+  /* Percentage of user's browser font-size setting */
+  font-size: 62.5%;
+  overflow-x: hidden;
+
+  /* Does NOT work on Safari */
+  /* scroll-behavior: smooth; */
+}
+
+a {
+  text-decoration: none;
+  color: rgb(228, 76, 160);
+  cursor: pointer;
+}
+
+a:hover {
+  color: rgb(187, 52, 126);
+}
+
+ul,
+ol {
+  list-style-type: none;
+}
+
+body {
+  font-family: "Syne", sans-serif;
+  line-height: 1;
+  font-weight: 400;
+  color: #555;
+
+  /* Only works if there is nothing absolutely positioned in relation to body */
+  overflow-x: hidden;
+}
+
+p {
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+}
+
+img {
+  overflow-clip-margin: content-box;
+  overflow: clip;
+}
+
+section {
+  display: block;
+}
+
+main {
+  display: block;
+}
+
+/* HEADER */
+
+.logo {
+  height: 20rem;
+}
+
+.header {
+  font-family: "Syne", sans-serif;
+  font-family: "Thasadith", sans-serif;
+  font-size: 2.2rem;
+  height: 9.6rem;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header-list {
+  list-style: none;
+  font-family: "Syne", sans-serif;
+  gap: 5rem;
+
+  display: flex;
+  align-items: center;
+}
+
+.container {
+  /* 1140px */
+  max-width: 120rem;
+  padding: 0 3.2rem;
+  margin: 0 auto;
+}
+
+/**** INDEX ****/
+
+.section-nosotros {
+  background-color: #ffffff;
+  padding-top: 2rem;
+}
+
+.box-nosotros {
+  max-width: 120rem;
+  margin: 0 auto;
+  padding: 0 3.2rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 9.6rem;
+  align-items: center;
+}
+
+.sobre-nosotros {
+  font-size: 4.2rem;
+  line-height: 1.05;
+  margin-bottom: 3.2rem;
+}
+
+.nosotros-descripcion {
+  font-size: 1.5rem;
+  line-height: 1.6;
+  margin-bottom: 4.8rem;
+  font-family: "Thasadith", sans-serif;
+}
+
+.img-nosotros {
+  width: 100%;
+}
+
+/**** MARCAS ****/
+
+.nuestras-marcas {
+  padding: 4.6rem 0;
+  font-size: 3.2rem;
+  line-height: 1.05;
+  margin-bottom: 3.2rem;
+}
+
+.section-marcas {
+    font-size: 1.8rem;
+    align-items: center;
+  padding-bottom: 2rem;
+  }
+
+.box-dermopurity {
+    max-width: 120rem;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 6.6rem;
+  align-items: center;
+}
+
+.dermopurity-descripcion {
+  font-size: 1.6rem;
+}
+
+.dermopurity-img-box {
+    width: 35%;
+}
+
+.box-makeup {
+    max-width: 120rem;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 6.6rem;
+    align-items: center;
+}
+  
+  .makeup-descripcion {
+    font-size: 1.6rem;
+  }
+  
+  .makeup-img-box {
+    width: 2%;
+} 
+
+.box-kiki {
+    max-width: 120rem;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 6.6rem;
+    align-items: center;
+}
+
+  
+  .kiki-descripcion {
+    font-size: 1.6rem;
+  }
+  
+  .kiki-img-box {
+      width: 0.2%;
+  }
+
+.box-lidherma {
+    max-width: 120rem;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 6.6rem;
+    align-items: center;
+}
+  
+  .lidherma-descripcion {
+    font-size: 1.6rem;
+  }
+  
+  .lidherma-img-box {
+    width: 0.2%;
+  }
+
+.box-glaps {
+    max-width: 120rem;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 6.6rem;
+    align-items: center;
+}
+  
+  .glaps-descripcion {
+    font-size: 1.6rem;
+  }
+  
+  .glaps-img-box {
+      width: 0.2%;
+  }
+
+.box-alfaparf {
+    max-width: 120rem;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 6.6rem;
+    align-items: center;
+}
+
+  .alfaparf-descripcion {
+    font-size: 1.6rem;
+  }
+  
+  .alfaparf-img-box {
+      width: 0.1%;
+  }
+
+.box-ht {
+    max-width: 120rem;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 6.6rem;
+    align-items: center;
+}
+
+  
+  .ht-descripcion {
+    font-size: 1.6rem;
+  }
+  
+  .ht-img-box {
+      width: 0.2%;
+  }
+
+/**** PRODUCTOS ***/
+
+.nuestros-productos {
+    padding: 4.6rem 0;
+    font-size: 3.2rem;
+    line-height: 1.05;
+    margin-bottom: 3.2rem;
+  }
+
+.section-productos {
+    font-size: 1.8rem;
+    align-items: center;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+  column-gap: 50px;
+  padding-bottom: 50px;
+}
+
+
+
+
+/**** FOOTER ****/
+
+
+.grid {
+  display: grid;
+  column-gap: 6.4rem;
+  row-gap: 9.6rem;
+}
+
+.footer {
+  padding: 8.8rem 0;
+  border-top: 2px solid #eee;
+  
+}
+
+.grid--footer {
+  grid-template-columns: 1.5fr 1.5fr 1fr 1fr 1fr;
+}
+
+.logo-col {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer-logo {
+  display: block;
+  margin-bottom: 3.2rem;
+}
+
+.copyright {
+  font-size: 1.2rem;
+  line-height: 1.6;
+  color: #767676;
+  margin-top: auto;
+}
+
+.footer-heading {
+  font-size: 1.2rem;
+  font-weight: 500;
+  margin-bottom: 4rem;
+}
+
+.contacts {
+  font-style: normal;
+  font-size: 1.2rem;
+  line-height: 1.6;
+}
+
+.address {
+  margin-bottom: 2.4rem;
+}
+
+.footer-nav {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 2.4rem;
+}
+
+.footer-link:link,
+.footer-link:visited {
+  text-decoration: none;
+  font-size: 1.2rem;
+  color: #767676;
+  transition: all 0.3s;
+}
+
+.footer-link:hover,
+.footer-link:active {
+  color: #555;
+}
